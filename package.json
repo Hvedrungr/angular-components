@@ -1,0 +1,16 @@
+{
+  "name": "Tooltip",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Create a tooltip",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "=1.5.0"
+  },
+  "devDependencies": {
+    "http-server": "=0.9.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1 ./"
+  }
+}
