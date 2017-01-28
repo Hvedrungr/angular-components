@@ -4,18 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Music retriever</title>
-    <meta name="description" content="Music_Retriever">
+    <meta name="description" content="Angular components DEMO">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- TOOLS SCRIPTS -->
       <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+      <link rel="stylesheet" href="main.css">
+
+      <!-- COMPONENTS -->
+      <script type="text/javascript" src="tooltip/tooltip.js"></script>
+      <link rel="stylesheet" href="tooltip/tooltip.css">
   </head>
 
-  <body ng-app="Tooltip">
+  <body ng-app="angular-components">
 
-  <div id="main">
-    Hello
-  </div>
+    <div class="tooltipDemo" tooltip tooltip-text="I haved hovered the current element!">
+      Tooltip demo: hover me!
+    </div>
 
   </body>
 </html>
